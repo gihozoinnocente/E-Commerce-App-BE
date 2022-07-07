@@ -24,7 +24,7 @@ try {
         res.json({ message: "Welcome to the E-COMMERCE API" });
       });
 
-    app.use("/api/v1/", routes)
+    app.use("/api", routes)
 
 
     app.listen(port, () => {
